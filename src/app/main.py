@@ -16,7 +16,7 @@ basic_auth = BasicAuth(app)
 
 @app.route('/')
 def home():
-    return "Minha primeira API."
+    return "ML - API"
 
 @app.route('/sentimento/<frase>')
 @basic_auth.required
